@@ -1,6 +1,8 @@
 # See https://github.com/FGasper/perl-github-action-tips
 on:
   workflow_dispatch:
+  push:
+  pull_request:
 
 jobs:
   linux:
